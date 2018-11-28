@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alex.mercadonetapplication.activity.PerfilActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PERFIL" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EMAIL"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <EditText
+            android:id="@+id/editSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="SENHA"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="150dp" />
+
+        <EditText
+            android:id="@+id/editNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NOME" />
+
+        <EditText
+            android:id="@+id/editDtaNascimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DATA NASCIMENTO"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="50dp" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:onClick="alterarCadastro"
+            android:text="ALTERAR"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="196dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

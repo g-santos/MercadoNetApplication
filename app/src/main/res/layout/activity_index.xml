@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alex.mercadonetapplication.activity.IndexActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/editProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DIGITE NOME DO PRODUTO"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:onClick="buscarProduto"
+            android:text="BUSCAR"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="196dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CATEGORIAS" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <Button
+            android:id="@+id/btnPanificadora"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:onClick="buscarPanificadora"
+            android:text="PANIFICADORA"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="196dp" />
+
+        <Button
+            android:id="@+id/btnAcougue"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:onClick="buscarAcougue"
+            android:text="ACOUGUE"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="196dp" />
+
+        <Button
+            android:id="@+id/btnMercearia"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:onClick="buscarMercearia"
+            android:text="Mercearia"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="196dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+
+        <Button
+            android:id="@+id/btnPerfil"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:onClick="callPerfilActivity"
+            android:text="MINHA CONTA"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
